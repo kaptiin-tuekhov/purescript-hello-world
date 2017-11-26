@@ -1,9 +1,5 @@
 module Main where
 
-import Prelude
+import Control.Monad.Eff.Console
 
-import Euler (answer)
-import Control.Monad.Eff.Console (log)
-
-main = do
-  log ("The answer is " <> show answer)
+main = log "Hello, World!"
